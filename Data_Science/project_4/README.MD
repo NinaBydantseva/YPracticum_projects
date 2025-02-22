@@ -11,11 +11,11 @@
 
 ## Решение:
 - Используемые библиотеки Python:
-- pandas,
-- seaborn,
-- numpy,
-- matplotlib.pyplot,
-- sklearn.
+  - pandas,
+  - seaborn,
+  - numpy,
+  - matplotlib.pyplot,
+  - sklearn.
 
 ### Ход решения:
 
