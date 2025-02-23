@@ -1,28 +1,28 @@
 # YPracticum_projects
 Проекты Яндекс.Практикум
 
-# DataScience
-## project_1
+## DataScience
+### project_1
 Исследование объявлений о продаже квартир
-## project_2
+### project_2
 Сервис по прокату самокатов.ipynb
-## project_3
+### project_3
 Планирование рекламных акций.ipynb
-## project_4
+### project_4
 Продажа коров.ipynb
-## project_5
+### project_5
 Персонализация предложений товаров.ipynb
-## project_6
+### project_6
 Удовлетворенность сотрудников работой
-## project_7
+### project_7
 Выбор локации для скважины
-## project_8
+### project_8
 Определение стоимости автомобиля
-## project_9
+### project_9
 Прогнозирование заказов такси
-## project_10
+### project_10
 Классификация комментариев
-## project_11
+### project_11
 Определение возраста покупателей
-## project_final
+### project_final
 Оптимизация производственных расходов металлургического комбината
