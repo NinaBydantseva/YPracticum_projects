@@ -19,7 +19,7 @@
   - tqdm,
   - pymystem3,
   - sklearn,
-  - scipy.stats.
+  - scipy.
 
 ### Ход решения:
 
