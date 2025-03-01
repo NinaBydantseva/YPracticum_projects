@@ -18,7 +18,7 @@
 
 ### Ход решения:
 
-- Создаем функции:
+- Созданы функции:
   - загрузка данных о курьерах в stg-слой - upload_couriers, также сохраняем максимальный идентификатор курьера для отсечения уже загруженных данных,
   - загрузка данных о ресторанах в stg-слой - upload_restaurants, также сохраняем максимальный идентификатор ресторана для отсечения уже загруженных данных,
   - загрузка данных о доставках в stg-слой - upload_deliveries, также сохраняем максимальный идентификатор доставки для отсечения уже загруженных данных,
@@ -28,5 +28,5 @@
   - загрузка данных о доставках из stg-слоя в dds-слой - load_deliveries,
   - заполнение таблицы фактов о курьерах и их доставках - load_fct_courier_delivery,
   - заполнение витрины данными - load_cdm_m_courier_ledger,
-- формирование пайплайна DAG:
+- сформирован пайплайн DAG:
   - t_upload_couriers, t_upload_restaurants, t_upload_deliveries >> t_load_restaurants, t_load_couriers, t_load_orders, t_load_deliveries >> t_load_fct_courier_delivery >> t_load_cdm_m_courier_ledger
