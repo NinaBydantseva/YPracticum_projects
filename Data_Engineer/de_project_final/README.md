@@ -1,6 +1,6 @@
 ## Проект:
 
-Выпускной проект: 
+Выпускной проект: разработка ETL-процесса для учёта транзакционной активности клиентов в единой валюте
 
 ## Задача:
 
@@ -27,9 +27,9 @@
   - функция получения данных о транзакциях из Postgre - get_transactions,
   - функция получения данных о валютах транзакций из Postgre - get_currencies,
   - функция загрузки данных в слой stg в Vertica - load_dataset_from_ps_to_vertica,
-  - собран пайплайн DAG для формирования слоя stg - prj_final_dag_load_STG [start >> [load_transactions, load_currencies] >> end],
+  - собран пайплайн DAG для ежедневного обновления слоя stg - prj_final_dag_load_STG [start >> [load_transactions, load_currencies] >> end],
 - созданы функции для формирования слоя cdm:
   - функция получения данных о метриках из Vertica - get_metrics,
   - функция загрузки данных в слой cdm в Vertica - load_dataset_to_mart,
-  - собран пайплайн DAG для формирования слоя cdm - prj_final_dag_load_CDM [start >> load_global_metrics >> end],
+  - собран пайплайн DAG для ежедневного обновления слоя cdm - prj_final_dag_load_CDM [start >> load_global_metrics >> end],
 - создан дашборд в Metabase.
